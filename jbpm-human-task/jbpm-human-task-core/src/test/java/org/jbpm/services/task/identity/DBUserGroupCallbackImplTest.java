@@ -29,11 +29,10 @@ import java.util.List;
 import java.util.Properties;
 
 import org.jbpm.persistence.util.PersistenceUtil;
+import org.jbpm.test.util.PoolingDataSource;
 import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
-
-import org.jbpm.test.PoolingDataSource;
 
 public class DBUserGroupCallbackImplTest {
 

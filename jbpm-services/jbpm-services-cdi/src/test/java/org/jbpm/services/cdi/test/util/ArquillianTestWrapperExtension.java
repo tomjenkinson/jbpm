@@ -20,7 +20,7 @@ import org.jboss.arquillian.core.api.annotation.Observes;
 import org.jboss.arquillian.core.spi.LoadableExtension;
 import org.jboss.arquillian.test.spi.event.suite.AfterSuite;
 import org.jboss.arquillian.test.spi.event.suite.BeforeSuite;
-import org.jbpm.test.PoolingDataSource;
+import org.jbpm.test.util.PoolingDataSource;
 
 /**
  * Custom extension for arquillian to setup data source for all the tests that can be closed properly

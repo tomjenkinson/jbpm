@@ -45,6 +45,7 @@ import org.jbpm.executor.impl.ExecutorImpl;
 import org.jbpm.executor.impl.ExecutorServiceImpl;
 import org.jbpm.executor.test.CountDownAsyncJobListener;
 import org.jbpm.test.util.ExecutorTestUtil;
+import org.jbpm.test.util.PoolingDataSource;
 import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
@@ -54,8 +55,6 @@ import org.kie.api.executor.RequestInfo;
 import org.kie.api.runtime.query.QueryContext;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-
-import org.jbpm.test.PoolingDataSource;
 
 public class JmsAvaiableJobExecutorTest  {
 

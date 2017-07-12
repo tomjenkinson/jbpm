@@ -22,12 +22,11 @@ import javax.persistence.Persistence;
 import org.drools.core.impl.EnvironmentFactory;
 import org.jbpm.services.task.HumanTaskServiceFactory;
 import org.jbpm.services.task.test.TestStatefulKnowledgeSession;
+import org.jbpm.test.util.PoolingDataSource;
 import org.junit.After;
 import org.junit.Before;
 import org.kie.api.runtime.process.WorkItemHandler;
 import org.kie.internal.task.api.InternalTaskService;
-
-import org.jbpm.test.PoolingDataSource;
 
 public class HTWorkItemHandlerTest extends HTWorkItemHandlerBaseTest {
 

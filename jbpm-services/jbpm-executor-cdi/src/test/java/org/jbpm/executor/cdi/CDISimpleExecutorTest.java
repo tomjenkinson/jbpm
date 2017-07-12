@@ -27,13 +27,12 @@ import org.jboss.shrinkwrap.api.ShrinkWrap;
 import org.jboss.shrinkwrap.api.spec.JavaArchive;
 import org.jbpm.executor.BasicExecutorBaseTest;
 import org.jbpm.test.util.ExecutorTestUtil;
+import org.jbpm.test.util.PoolingDataSource;
 import org.junit.AfterClass;
 import org.junit.Before;
 import org.junit.BeforeClass;
 import org.junit.runner.RunWith;
 import org.kie.api.executor.ExecutorService;
-
-import org.jbpm.test.PoolingDataSource;
 
 @RunWith(Arquillian.class)
 public class CDISimpleExecutorTest extends BasicExecutorBaseTest {

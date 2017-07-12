@@ -41,6 +41,7 @@ import org.h2.tools.DeleteDbFiles;
 import org.h2.tools.Server;
 import org.jbpm.process.instance.event.DefaultSignalManagerFactory;
 import org.jbpm.process.instance.impl.DefaultProcessInstanceManagerFactory;
+import org.jbpm.test.util.PoolingDataSource;
 import org.junit.Assert;
 import org.kie.api.KieBase;
 import org.kie.api.runtime.Environment;
@@ -49,8 +50,6 @@ import org.kie.api.runtime.KieSessionConfiguration;
 import org.kie.internal.runtime.conf.ForceEagerActivationOption;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-
-import org.jbpm.test.PoolingDataSource;
 
 public class PersistenceUtil {
 

@@ -34,6 +34,7 @@ import javax.transaction.UserTransaction;
 import org.drools.core.process.instance.impl.WorkItemImpl;
 import org.h2.tools.DeleteDbFiles;
 import org.h2.tools.Server;
+import org.jbpm.test.util.PoolingDataSource;
 import org.junit.BeforeClass;
 import org.junit.Test;
 import org.kie.api.io.ResourceType;
@@ -50,8 +51,6 @@ import org.kie.api.task.TaskService;
 import org.kie.internal.io.ResourceFactory;
 import org.kie.internal.runtime.manager.TaskServiceFactory;
 import org.kie.internal.runtime.manager.context.EmptyContext;
-
-import org.jbpm.test.PoolingDataSource;
 
 public class JPAWorkItemHandlerTest {
     

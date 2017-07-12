@@ -23,11 +23,10 @@ import java.io.InputStream;
 import java.util.Properties;
 
 import org.jbpm.persistence.util.PersistenceUtil;
+import org.jbpm.test.util.PoolingDataSource;
 import org.junit.Assert;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-
-import org.jbpm.test.PoolingDataSource;
 
 public class ExecutorTestUtil {
     

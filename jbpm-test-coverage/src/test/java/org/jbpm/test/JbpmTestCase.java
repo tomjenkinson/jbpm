@@ -18,6 +18,7 @@ package org.jbpm.test;
 
 import org.assertj.core.api.Assertions;
 import org.jbpm.persistence.util.PersistenceUtil;
+import org.jbpm.test.util.PoolingDataSource;
 import org.junit.Rule;
 import org.junit.rules.TestRule;
 import org.junit.rules.TestWatcher;
